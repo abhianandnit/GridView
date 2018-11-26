@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DataGridComponent } from './data-grid/data-grid.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DataGridComponent
   ],
   imports: [
     BrowserModule,
