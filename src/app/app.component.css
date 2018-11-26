@@ -1,0 +1,14 @@
+#side-bar{
+    width:200px;
+    height: 100%;
+    background: red;
+    border:1px solid black;
+    margin-right:10px;
+    float:left;
+}
+#grid-bar{
+    background: blue;
+    border:1px solid black;
+    margin-right:10px;
+    float:right;
+}
